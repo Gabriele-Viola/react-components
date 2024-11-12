@@ -2,6 +2,10 @@ export default function AppHeader() {
     const titleBlog = 'My awesome blog'
 
     return (
-        <header>{titleBlog}</header>
+        <header>
+            <strong>
+                {titleBlog}
+            </strong>
+        </header>
     )
 }

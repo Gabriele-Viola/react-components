@@ -1,11 +1,18 @@
 .blogCard {
-    background-color: red;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    margin: 1rem 0;
+
+    img {
+        object-fit: contain;
+    }
 
     .blogCardBody {
-        color: green;
+        padding: .5rem;
+
 
         h3 {
-            color: deeppink;
+            padding: .5rem 0;
         }
     }
 }

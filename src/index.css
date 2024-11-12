@@ -4,8 +4,37 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
-  width: 80%;
+  width: 60%;
   max-width: 1200px;
   margin: auto;
+}
+
+.row {
+  margin: 0 -1rem;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  background-color: rgb(94, 7, 193);
+  padding: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(120, 1, 255);
+  text-shadow: 1px 1px 10px black;
+}
+
+main {
+  min-height: calc(100vh - 69px - 50px);
+}
+
+footer {
+  background-color: rgb(94, 7, 193);
+  padding: 1rem;
+  text-align: center;
 }
