@@ -8,8 +8,12 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 .container {
-  width: 60%;
+  width: 80%;
   max-width: 1200px;
   margin: auto;
 }
@@ -21,7 +25,7 @@ img {
 }
 
 header {
-  background-color: rgb(94, 7, 193);
+  background-image: linear-gradient(rgb(94, 7, 193), rgb(57, 6, 116));
   padding: 1rem;
   text-align: center;
   font-size: 2rem;
@@ -31,10 +35,11 @@ header {
 
 main {
   min-height: calc(100vh - 69px - 50px);
+  background-color: rgb(57, 6, 116);
 }
 
 footer {
-  background-color: rgb(94, 7, 193);
+  background-image: linear-gradient(rgb(57, 6, 116), rgb(94, 7, 193));
   padding: 1rem;
   text-align: center;
 }

@@ -8,6 +8,9 @@ export default function AppMain() {
             <div className="container">
                 <div className="row">
                     <BlogCard />
+                    <BlogCard />
+                    <BlogCard />
+
 
                 </div>
 

@@ -1,18 +1,20 @@
 .blogCard {
     box-shadow: 1px 1px 10px black;
     border-radius: 20px;
-    margin: 1rem 0;
-
-    img {
-        object-fit: contain;
-    }
+    margin: 1rem;
+    overflow: hidden;
+    background-color: white;
 
     .blogCardBody {
         padding: .5rem;
 
-
         h3 {
             padding: .5rem 0;
+        }
+
+        p {
+            padding: .5rem 0;
+            margin-bottom: .5rem;
         }
     }
 }
