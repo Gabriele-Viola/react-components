@@ -23,23 +23,3 @@ body {
   display: flex;
   align-items: center;
 }
-
-header {
-  background-image: linear-gradient(rgb(94, 7, 193), rgb(57, 6, 116));
-  padding: 1rem;
-  text-align: center;
-  font-size: 2rem;
-  color: rgb(120, 1, 255);
-  text-shadow: 1px 1px 10px black;
-}
-
-main {
-  min-height: calc(100vh - 69px - 50px);
-  background-color: rgb(57, 6, 116);
-}
-
-footer {
-  background-image: linear-gradient(rgb(57, 6, 116), rgb(94, 7, 193));
-  padding: 1rem;
-  text-align: center;
-}
