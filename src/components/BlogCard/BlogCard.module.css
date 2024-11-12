@@ -1,0 +1,11 @@
+.blogCard {
+    background-color: red;
+
+    .blogCardBody {
+        color: green;
+
+        h3 {
+            color: deeppink;
+        }
+    }
+}
